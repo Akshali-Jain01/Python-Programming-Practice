@@ -1,0 +1,11 @@
+# f= open('demo1.txt','r')
+# print(f.read())
+# print(f.readline())
+# print(f.readlines())
+# print(f.readline(2))
+# list1 = f.readlines()
+# for i in range (len(list1)):
+#     print(list1[i])
+f = open('aj.txt','w')
+f.write('this is dfsd')
+f.close()

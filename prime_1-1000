@@ -1,0 +1,32 @@
+# sum=0
+# for j in range(1,1001):
+#     n=j
+#     count=0
+#     for i in range(1,n+1):
+#         if(n%i==0):
+#             count = count+1
+#     if(count==2):
+#         sum=sum+1
+#         print(n,end=" , ")
+# print()
+# # print("hello")
+# print(sum," prime ")
+for j in range(1,1001):
+    n=j
+    count=0
+    sum=0
+    for i in range(1,n):
+        if(n%i==0):
+            sum =sum+i
+            count = count+1
+    if(count>2):
+        if(sum==n):
+            print("perfect number" ,n,end=" , ")
+   # sum=sum+1
+
+
+          
+print()
+# print("hello")
+# print(sum," prime ")
+   
